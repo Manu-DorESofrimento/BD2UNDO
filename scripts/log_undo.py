@@ -1,7 +1,7 @@
-# Pacote do regex
+#imports
 import re
 
-# Scripts para impressão
+
 from scripts.print_out import print_transactions, print_json, print_update
 
 
