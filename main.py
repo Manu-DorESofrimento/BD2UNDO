@@ -18,10 +18,10 @@ def main():
 
     # recuperar log UNDO
     perform_undo(cursor)
-
+	
+    conn.commit()
 	  # fecha conexão com banco
     cursor.close()
-
   except (Exception, psycopg2.DatabaseError) as error:
     print(error)
 
